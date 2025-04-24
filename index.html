@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <h2>Full Stack Developer</h2>
+            <p>Passionate about creating beautiful and functional web applications</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="shape"></div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>A full-featured e-commerce platform with payment integration</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A productivity app for managing daily tasks and projects</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time weather information with interactive maps</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>your.email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Your Location</p>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
